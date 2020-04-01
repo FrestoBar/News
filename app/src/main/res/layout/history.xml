@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/historyItem"
+    android:background="#FD7171"
+    android:layout_marginBottom="5dp"
+    android:paddingBottom="2dp"
+    >
+
+    <TextView
+        android:id="@+id/historyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/historyUrl"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#0056FF"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        >
+    </TextView>
+
+
+</RelativeLayout>
